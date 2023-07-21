@@ -3,6 +3,7 @@
  char convertCase(unsigned char ch) {
     unsigned char result;
 
+   // Assembly InLine Codeblocks' Sintax
     asm(
         "xorb $0x20, %%al;"
         "movb %%al, %0;"
